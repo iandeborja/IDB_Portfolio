@@ -12,8 +12,8 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section id="home" className="py-16 flex items-center justify-center relative overflow-hidden bg-white">
-      <div className="container-max px-4 sm:px-6 lg:px-8 pt-20 md:pt-24 relative z-10">
+    <section id="home" className="py-12 sm:py-16 flex items-center justify-center relative overflow-hidden bg-white">
+      <div className="container-max px-4 sm:px-6 lg:px-8 pt-16 md:pt-24 relative z-10">
         <div className="max-w-6xl mx-auto">
           {/* Main Content */}
           <motion.div
@@ -27,9 +27,9 @@ const Hero: React.FC = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="mb-8"
+              className="mb-6"
             >
-              <span className="text-sm font-medium tracking-widest uppercase text-neutral-500 dark:text-neutral-400">
+              <span className="text-sm font-medium tracking-widest uppercase text-neutral-500">
                 Hello, I'm
               </span>
             </motion.div>
@@ -39,13 +39,13 @@ const Hero: React.FC = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.3 }}
-              className="text-6xl sm:text-7xl lg:text-8xl xl:text-9xl font-bold mb-8 leading-none"
+              className="text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight break-words max-w-full"
             >
-              <span className="block text-neutral-900 dark:text-white">Ian</span>
-              <span className="block text-neutral-900 dark:text-white">
-                <span className="inline-flex items-baseline">
+              <span className="block text-neutral-900">Ian</span>
+              <span className="block text-neutral-900">
+                <span className="inline-flex items-baseline flex-wrap">
                   <span>de Borja</span>
-                  <span className="text-lg sm:text-xl font-bold ml-4 text-neutral-400 dark:text-white align-baseline">(a.k.a. idb)</span>
+                  <span className="text-base xs:text-lg sm:text-xl font-bold ml-2 text-neutral-400 align-baseline whitespace-nowrap">(a.k.a. idb)</span>
                 </span>
               </span>
             </motion.h1>
@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.5 }}
-              className="text-lg sm:text-xl lg:text-2xl xl:text-3xl font-light text-neutral-600 dark:text-neutral-300 mb-8 max-w-5xl mx-auto lg:mx-0 leading-relaxed lg:whitespace-nowrap"
+              className="text-base xs:text-lg sm:text-xl md:text-2xl font-light text-neutral-600 mb-6 max-w-full mx-auto lg:mx-0 leading-relaxed"
             >
               Senior Marketing Leader, Pop-Culture Fanatic, and All Around Nice Guy
             </motion.h2>
@@ -65,7 +65,7 @@ const Hero: React.FC = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.7 }}
-              className="text-lg sm:text-xl text-neutral-500 dark:text-neutral-400 mb-8 max-w-2xl mx-auto lg:mx-0 leading-relaxed"
+              className="text-base xs:text-lg sm:text-xl text-neutral-500 mb-6 max-w-full mx-auto lg:mx-0 leading-relaxed break-words"
             >
               Creative and strategic communications leader with 15 years of experience shaping social media, community engagement, video/podcast production, and brand partnerships for beloved web2 and web3 brands like Amazon, Bored Ape Yacht Club, IMDb, Lyft, and Metaplex.
             </motion.p>

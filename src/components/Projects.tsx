@@ -57,11 +57,9 @@ const Projects: React.FC = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-5xl sm:text-6xl lg:text-7xl font-bold text-neutral-900 dark:text-white leading-none"
+              className="text-3xl xs:text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900 leading-tight max-w-full break-words"
             >
-              Featured
-              <br />
-              Work
+              Featured<br />Work
             </motion.h2>
           </div>
 
@@ -75,8 +73,8 @@ const Projects: React.FC = () => {
                 transition={{ duration: 0.8, delay: 0.1 + index * 0.1 }}
                 className="bg-white border border-neutral-200 rounded-lg shadow-sm p-8"
               >
-                <h3 className="text-3xl font-bold text-neutral-900 mb-4">{project.title}</h3>
-                <p className="text-lg text-neutral-600 mb-6 leading-relaxed">{project.description}</p>
+                <h3 className="text-2xl sm:text-3xl font-bold text-neutral-900 mb-4 max-w-full break-words">{project.title}</h3>
+                <p className="text-base sm:text-lg text-neutral-600 mb-6 leading-relaxed max-w-full break-words">{project.description}</p>
                 {/* Image Grid for ApeFest and IMDb Podcast Network Launch */}
                 {project.title === 'ApeFest' ? (
                   <div className="grid grid-cols-2 grid-rows-2 gap-4 mb-4">

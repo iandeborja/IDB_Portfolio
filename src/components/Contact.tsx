@@ -75,11 +75,9 @@ const Contact: React.FC = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="text-5xl sm:text-6xl lg:text-7xl font-bold text-neutral-900 dark:text-white leading-none"
+              className="text-3xl sm:text-5xl font-bold text-neutral-900 leading-tight max-w-full break-words"
             >
-              Let's
-              <br />
-              Connect
+              Let's<br />Connect
             </motion.h2>
           </div>
 
@@ -150,7 +148,7 @@ const Contact: React.FC = () => {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="bg-white dark:bg-neutral-800 border border-neutral-200 dark:border-neutral-700 p-8"
             >
-              <h3 className="text-2xl font-bold text-neutral-900 dark:text-white mb-6">
+              <h3 className="text-lg sm:text-2xl font-bold text-neutral-900 mb-6 max-w-full break-words">
                 Send Message
               </h3>
               

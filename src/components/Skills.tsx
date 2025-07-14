@@ -21,11 +21,11 @@ const Skills: React.FC = () => {
     <section id="skills" className="py-12 bg-white border-b border-neutral-200">
       <div className="container-max px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
-        <div className="mb-12 text-left">
-          <h2 className="text-4xl sm:text-5xl font-extrabold text-neutral-900 dark:text-white leading-tight mb-2">
+        <div className="mb-8 text-left">
+          <h2 className="text-3xl sm:text-4xl font-extrabold text-neutral-900 leading-tight mb-2 max-w-full break-words">
             Services
           </h2>
-          <p className="text-lg text-neutral-500 dark:text-neutral-400 max-w-xl">
+          <p className="text-base sm:text-lg text-neutral-500 max-w-full break-words">
             What I offer for brands, creators, and communities
           </p>
         </div>
@@ -41,7 +41,7 @@ const Skills: React.FC = () => {
               className="flex items-center space-x-4 p-4 bg-white dark:bg-black rounded-lg shadow-sm border border-neutral-100 dark:border-neutral-800 hover:shadow-md transition-shadow"
             >
               <CheckSquare className="text-neutral-900 dark:text-white flex-shrink-0" size={28} />
-              <span className="text-xl font-semibold text-neutral-900 dark:text-white">
+              <span className="text-lg sm:text-xl font-semibold text-neutral-900 max-w-full break-words">
                 {service}
               </span>
             </motion.div>
