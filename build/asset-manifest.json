@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d8eae5f7.css",
+    "main.js": "/static/js/main.53475de5.js",
+    "static/media/boredapeyachtclub.png": "/static/media/boredapeyachtclub.e5b9b62e4261c59bade2.png",
+    "static/media/Lyft-Logo.png": "/static/media/Lyft-Logo.1837a8b172cfcba98463.png",
+    "static/media/rei.png": "/static/media/rei.8694b727d767b1e15d07.png",
+    "static/media/imdb.png": "/static/media/imdb.e270da37cee8b1a1772e.png",
+    "static/media/HBO.png": "/static/media/HBO.6f91888342071e37f9f1.png",
+    "static/media/amazon-logo-black-transparent.png": "/static/media/amazon-logo-black-transparent.1d446971e1ef43db6a7e.png",
+    "static/media/Nike-Logo.png": "/static/media/Nike-Logo.eeeb1de18e9826a9fcdc.png",
+    "static/media/Metaplex+Logo.png": "/static/media/Metaplex+Logo.99d8003f930e2b4de58f.png",
+    "static/media/yugaLabs-cover.png": "/static/media/yugaLabs-cover.86a6fea5000539041274.png",
+    "index.html": "/index.html",
+    "main.d8eae5f7.css.map": "/static/css/main.d8eae5f7.css.map",
+    "main.53475de5.js.map": "/static/js/main.53475de5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d8eae5f7.css",
+    "static/js/main.53475de5.js"
+  ]
+}
