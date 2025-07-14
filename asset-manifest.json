@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.d8eae5f7.css",
-    "main.js": "/static/js/main.53475de5.js",
+    "main.js": "/static/js/main.f04fc7f5.js",
     "static/media/boredapeyachtclub.png": "/static/media/boredapeyachtclub.e5b9b62e4261c59bade2.png",
     "static/media/Lyft-Logo.png": "/static/media/Lyft-Logo.1837a8b172cfcba98463.png",
     "static/media/rei.png": "/static/media/rei.8694b727d767b1e15d07.png",
@@ -13,10 +13,10 @@
     "static/media/yugaLabs-cover.png": "/static/media/yugaLabs-cover.86a6fea5000539041274.png",
     "index.html": "/index.html",
     "main.d8eae5f7.css.map": "/static/css/main.d8eae5f7.css.map",
-    "main.53475de5.js.map": "/static/js/main.53475de5.js.map"
+    "main.f04fc7f5.js.map": "/static/js/main.f04fc7f5.js.map"
   },
   "entrypoints": [
     "static/css/main.d8eae5f7.css",
-    "static/js/main.53475de5.js"
+    "static/js/main.f04fc7f5.js"
   ]
 }
