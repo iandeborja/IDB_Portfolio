@@ -13,14 +13,14 @@ const Hero: React.FC = () => {
 
   return (
     <section id="home" className="py-12 sm:py-16 min-h-screen flex items-center justify-center relative bg-white">
-      <div className="container-max px-4 sm:px-6 lg:px-8 pt-16 md:pt-24 relative z-10">
-        <div className="max-w-6xl mx-auto">
+      <div className="container-max px-4 sm:px-6 lg:px-8 pt-16 md:pt-24 relative z-10 w-full">
+        <div className="w-full max-w-full lg:max-w-6xl mx-auto">
           {/* Main Content */}
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, ease: "easeOut" }}
-            className="text-center lg:text-left"
+            className="text-center lg:text-left w-full max-w-full"
           >
             {/* Greeting */}
             <motion.div
@@ -39,13 +39,13 @@ const Hero: React.FC = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.3 }}
-              className="text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight break-words max-w-full"
+              className="text-4xl xs:text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-6 leading-tight break-words max-w-full w-full"
             >
               <span className="block text-neutral-900">Ian</span>
               <span className="block text-neutral-900">
-                <span className="inline-flex items-baseline flex-wrap">
+                <span className="inline-flex items-baseline flex-wrap w-full max-w-full">
                   <span>de Borja</span>
-                  <span className="text-base xs:text-lg sm:text-xl font-bold ml-2 text-neutral-400 align-baseline whitespace-nowrap">(a.k.a. idb)</span>
+                  <span className="text-base xs:text-lg sm:text-xl font-bold ml-2 text-neutral-400 align-baseline">(a.k.a. idb)</span>
                 </span>
               </span>
             </motion.h1>
@@ -55,7 +55,7 @@ const Hero: React.FC = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.5 }}
-              className="text-base xs:text-lg sm:text-xl md:text-2xl font-light text-neutral-600 mb-6 max-w-full mx-auto lg:mx-0 leading-relaxed"
+              className="text-base xs:text-lg sm:text-xl md:text-2xl font-light text-neutral-600 mb-6 max-w-full w-full mx-auto lg:mx-0 leading-relaxed break-words"
             >
               Senior Marketing Leader, Pop-Culture Fanatic, and All Around Nice Guy
             </motion.h2>
@@ -65,7 +65,7 @@ const Hero: React.FC = () => {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.7 }}
-              className="text-base xs:text-lg sm:text-xl text-neutral-500 mb-6 max-w-full mx-auto lg:mx-0 leading-relaxed break-words"
+              className="text-base xs:text-lg sm:text-xl text-neutral-500 mb-6 max-w-full w-full mx-auto lg:mx-0 leading-relaxed break-words"
             >
               Creative and strategic communications leader with 15 years of experience shaping social media, community engagement, video/podcast production, and brand partnerships for beloved web2 and web3 brands like Amazon, Bored Ape Yacht Club, IMDb, Lyft, and Metaplex.
             </motion.p>
