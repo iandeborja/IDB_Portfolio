@@ -5,10 +5,12 @@
 @layer base {
   html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
   }
   
   body {
-    @apply bg-neutral-50 text-neutral-900 dark:bg-neutral-900 dark:text-neutral-100;
+    @apply bg-neutral-50 text-neutral-900;
+    overflow-x: hidden;
     font-family: 'Inter', system-ui, sans-serif;
   }
   
@@ -19,11 +21,11 @@
 
 @layer components {
   .gradient-text {
-    @apply text-neutral-900 dark:text-white;
+    @apply text-neutral-900;
   }
   
   .glass-effect {
-    @apply backdrop-blur-md bg-white/10 dark:bg-neutral-900/10 border border-white/20 dark:border-neutral-700/20;
+    @apply backdrop-blur-md bg-white/10 border border-white/20;
   }
   
   .card-hover {
@@ -35,6 +37,9 @@
   }
   
   .container-max {
-    @apply max-w-7xl mx-auto;
+    @apply w-full max-w-full px-4;
+    @apply md:max-w-7xl md:mx-auto md:px-0;
   }
+  /* TEMP: Debug border for all divs */
+  div { border: 1px solid rgba(255,0,0,0.1); }
 } 
