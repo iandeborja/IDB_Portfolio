@@ -12,7 +12,7 @@ const Hero: React.FC = () => {
   };
 
   return (
-    <section id="home" className="py-12 sm:py-16 flex items-center justify-center relative overflow-hidden bg-white">
+    <section id="home" className="py-12 sm:py-16 min-h-screen flex items-center justify-center relative bg-white">
       <div className="container-max px-4 sm:px-6 lg:px-8 pt-16 md:pt-24 relative z-10">
         <div className="max-w-6xl mx-auto">
           {/* Main Content */}
@@ -112,10 +112,10 @@ const Hero: React.FC = () => {
         </div>
       </div>
 
-      {/* Background Elements */}
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute top-20 right-20 w-64 h-64 bg-neutral-100 dark:bg-neutral-800 rounded-full opacity-20"></div>
-        <div className="absolute bottom-20 left-20 w-32 h-32 bg-neutral-100 dark:bg-neutral-800 rounded-full opacity-20"></div>
+      {/* Background Elements (hidden on mobile to prevent overlap) */}
+      <div className="hidden sm:block absolute inset-0 pointer-events-none">
+        <div className="absolute top-20 right-20 w-64 h-64 bg-neutral-100 rounded-full opacity-20"></div>
+        <div className="absolute bottom-20 left-20 w-32 h-32 bg-neutral-100 rounded-full opacity-20"></div>
       </div>
     </section>
   );
