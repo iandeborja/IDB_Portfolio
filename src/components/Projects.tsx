@@ -13,10 +13,10 @@ const Projects: React.FC = () => {
       title: 'ApeFest',
       description: 'ApeFest is the annual global event for Bored Ape Yacht Club members, the iconic NFT collection that exploded in 2021. I led the multi-month social media, video production, and community strategy for the 2023 and 2024 editions, which featured major brand partnerships with BAPE, BMW, Michelin,and more.',
       media: [
-        { type: 'image' as const, src: '/BAYC1.png', alt: 'ApeFest Photo 1' },
-        { type: 'image' as const, src: '/BAYC2.png', alt: 'ApeFest Photo 2' },
-        { type: 'image' as const, src: '/BAYC3.png', alt: 'ApeFest Photo 3' },
-        { type: 'image' as const, src: '/BAYC4.png', alt: 'ApeFest Photo 4' }
+        { type: 'image' as const, src: '/bayc1.png', alt: 'ApeFest Photo 1' },
+        { type: 'image' as const, src: '/bayc2.png', alt: 'ApeFest Photo 2' },
+        { type: 'image' as const, src: '/bayc3.png', alt: 'ApeFest Photo 3' },
+        { type: 'image' as const, src: '/bayc4.png', alt: 'ApeFest Photo 4' }
       ],
       liveUrl: '#',
       githubUrl: '#',
